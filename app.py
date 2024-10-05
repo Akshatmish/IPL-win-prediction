@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import sklearn as sn
+import sklearn 
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 import numpy as np
