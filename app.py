@@ -24,7 +24,7 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
           'Sharjah', 'Mohali', 'Bengaluru']
 
 # Load the saved model pipeline
-pipe = pickle.load(open('pipe.pkl', 'rb'))
+pipe = pickle.load(open('new_pipe.pkl.lz4', 'rb'))
 
 # Streamlit app title
 st.title('IPL Win Predictor')
